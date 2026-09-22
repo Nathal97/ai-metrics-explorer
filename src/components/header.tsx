@@ -15,7 +15,7 @@ export default function Header() {
                     <div className="w-2 h-2 rounded-lg bg-[#41c47a] mr-2"></div>
                     <span className="font-semibold">Live API</span>
                 </div>
-                <div className="text-xs text-gray-500 bg-white w-35 text-center rounded-2xl p-2 ">Next.js 14 App Router</div>
+                <div className="text-xs text-gray-500 bg-white w-35 text-center rounded-2xl p-2 font-semibold">Next.js 14 App Router</div>
                 <div className="rounded-3xl w-9 h-9 bg-white flex justify-center items-center text-sm">Btn</div>
             </div>
         </div>
