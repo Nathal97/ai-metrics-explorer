@@ -27,6 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${outfit.variable} ${dmMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col px-10">
+        <div className="blur-[120px] w-50 h-50 -z-50 bg-[#d3cafb] absolute right-0"></div>
         <Header />
         {children}
       </body>
